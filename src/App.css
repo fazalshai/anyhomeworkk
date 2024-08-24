@@ -1,18 +1,19 @@
 /* General styling */
 .App {
   text-align: center;
+  background: #F0F5F9;
 }
 
 .App-header {
-  background-color: #f1f1f1;
+  background-color: #F0F5F9;
   padding: 10px 20px;
   animation: backgroundColorChange 5s infinite; /* Background color animation */
 }
 
 @keyframes backgroundColorChange {
-  0% { background-color: #f1f1f1; }
-  50% { background-color: #e0e0e0; }
-  100% { background-color: #f1f1f1; }
+  0% { background-color: #F0F5F9; }
+  50% { background-color: #F0F5F9; }
+  100% { background-color: #F0F5F9; }
 }
 
 .navbar {
