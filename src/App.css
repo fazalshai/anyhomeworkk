@@ -1,0 +1,252 @@
+/* General styling */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+  animation: backgroundColorChange 5s infinite; /* Background color animation */
+}
+
+@keyframes backgroundColorChange {
+  0% { background-color: #f1f1f1; }
+  50% { background-color: #e0e0e0; }
+  100% { background-color: #f1f1f1; }
+}
+
+.navbar {
+  position: static;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: navbarSlideIn 1s ease-in-out; /* Navbar slide-in animation */
+}
+
+/* @keyframes navbarSlideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} */
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Smooth color change */
+}
+
+.menu-icon:hover {
+  color: #007BFF; /* Change color on hover */
+}
+
+.brand-title {
+  font-size: 24px;
+  font-weight: bold;
+  /* animation: textColorChange 3s infinite; Text color animation */
+}
+
+@keyframes textColorChange {
+  0% { color: #000000; }
+  50% { color: #FF6347; }
+  100% { color: #000000; }
+}
+
+.navbar-links {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-signup, .btn-login {
+  padding: 10px 20px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  animation: buttonBackgroundChange 5s infinite; /* Button background color animation */
+}
+
+@keyframes buttonBackgroundChange {
+  0% { background-color: white; }
+  50% { background-color: lightgray; }
+  100% { background-color: white; }
+}
+
+.btn-signup:hover, .btn-login:hover {
+  text-decoration: underline;
+}
+
+.btn-signup {
+  background-color: white;
+}
+
+.btn-login {
+  background-color: black;
+  color: rgb(0, 0, 0);
+}
+
+.flex-grid{
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+.courses {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  /* grid-template-columns: auto; */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+  animation: coursesFadeIn 1.5s ease-in-out; /* Fade-in animation for courses section */
+}
+
+@keyframes coursesFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.course-item {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.course-button {
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid black;
+  border-radius: 50px;
+  font-size: 18px;
+  text-align: left;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.course-button:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05); /* Slight scale-up on hover */
+} 
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.5s ease-in-out; /* Fade-in animation for modal */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  animation: slideInDown 0.5s ease-in-out; /* Slide-in-down animation */
+}
+
+@keyframes slideInDown {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Smooth color change */
+}
+
+.close-button:hover {
+  color: red;
+}
+
+@media (max-width: 360px) {
+  .navbar-links {
+    display: none; /* Hide navbar links on smaller screens */
+  }
+  
+  .courses {
+    grid-template-columns: 1fr; /* Single column for tablets */
+  }
+
+  .course-item {
+    width: 90%; /* Reduce the width for better spacing */
+  }
+
+  .modal-content {
+    width: 90%; /* Make the modal more responsive */
+  }
+}
+
+@media (max-width: 576px) {
+  .brand-title {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .menu-icon {
+    font-size: 20px; /* Adjust menu icon size */
+  }
+
+  .courses {
+    grid-template-columns: 1fr; /* Single column for mobile */
+  }
+
+  .course-item {
+    width: 100%; /* Full width for mobile devices */
+  }
+
+  .btn-signup, .btn-login {
+    padding: 10px; /* Reduce padding on buttons */
+    font-size: 14px; /* Adjust font size on buttons */
+  }
+
+  .course-button {
+    padding: 10px; /* Adjust padding inside buttons */
+    font-size: 16px; /* Adjust font size for mobile */
+  }
+}
