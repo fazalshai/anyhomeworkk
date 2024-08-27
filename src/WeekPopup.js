@@ -103,7 +103,36 @@ const WeekPopup = ({ course, week, onClose }) => {
                 content = `Content for ${week}...`;
                 break;
         }
-    } else {
+    }else if (course === 'Foundation of R language') {
+        switch (week) {
+            case 'Week 5':
+                content = (
+                    <ul>
+                        <p><b>Content for Week 5</b></p>
+                        <li>1. D</li>
+                        <li>2. A</li>
+                        <li>3. A</li>
+                        <li>4. A</li>
+                        <li>5. C</li>
+                        <li>6. D</li>
+                        <li>7. C</li>
+                        <li>8. D</li>
+                        <li>9. C</li>
+                        <li>10. D</li>
+                        <li>11. B</li>
+                        <li>12. D</li>
+                        <li>13. B</li>
+                        <li>14. D</li>
+                        <li>15. C</li>
+                        {/* Add more items as needed */}
+                    </ul>
+                );
+                break;
+            default:
+                content = `Content for ${week}...`;
+                break;
+        }
+    }else {
         content = `Content for ${week}...`;
     }
 
