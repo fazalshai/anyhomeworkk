@@ -37,8 +37,8 @@ function App() {
                 </button>
               </div>
               <div className="course-item">
-                <button onClick={() => handleOpenWeekPopup('R Language', 'Week 5')} className="course-button">
-                  R Language <span className="spn">➔</span>
+                <button onClick={() => handleOpenWeekPopup('Foundation of R language', 'Week 5')} className="course-button">
+                Foundation of R language <span className="spn">➔</span>
                 </button>
               </div>
               <div className="course-item">
@@ -61,7 +61,7 @@ function App() {
               </div>
               <div className="course-item">
                 <button onClick={() => handleOpenWeekPopup('Social Innovation in Industry 4.0', 'Week 5')} className="course-button">
-                  Social Innovation <span className="spn">➔</span>
+                  Social Innovation in Industry 4.0<span className="spn">➔</span>
                 </button>
               </div>
             </div>
