@@ -6,7 +6,7 @@ const WeekPopup = ({ course, week, onClose }) => {
 
     if (course === 'Design and Implementation of Human Interface') {
         switch (week) {
-            case 'Week 6':
+            case 'Week 5':
                 content = (
                     <ul>
                         <p><b>Content for Week 6</b></p>
@@ -31,7 +31,7 @@ const WeekPopup = ({ course, week, onClose }) => {
         }
     } else if (course === 'Psychology of Learning') {
         switch (week) {
-            case 'Week 6':
+            case 'Week 5':
                 content = (
                     <ul>
                         {/* Add more items as needed */}
@@ -56,7 +56,7 @@ const WeekPopup = ({ course, week, onClose }) => {
         }
     } else if (course === 'Sociology of Development') {
         switch (week) {
-            case 'Week 6':
+            case 'Week 5':
                 content = (
                     <ul>
                         <p><b>Content for Week 6</b></p>
@@ -78,7 +78,7 @@ const WeekPopup = ({ course, week, onClose }) => {
         }
     }else if (course === 'Social Innovation in Industry 4.0') {
         switch (week) {
-            case 'Week 6':
+            case 'Week 5':
                 content = (
                     <ul>
                         <p><b>Content for Week 6</b></p>
@@ -107,7 +107,7 @@ const WeekPopup = ({ course, week, onClose }) => {
         }
     }else if (course === 'Foundation of R language') {
         switch (week) {
-            case 'Week 6':
+            case 'Week 5':
                 content = (
                     <ul>
                         <p><b>Content for Week 6</b></p>
