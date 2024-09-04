@@ -6,7 +6,7 @@ const WeekPopup = ({ course, week, onClose }) => {
 
     if (course === 'Design and Implementation of Human Interface') {
         switch (week) {
-            case 'Week 5':
+            case 'Week 6':
                 content = (
                     <ul>
                         <p><b>Content for Week 6</b></p>
@@ -21,7 +21,7 @@ const WeekPopup = ({ course, week, onClose }) => {
                         <li>9. (B) </li>
                         <li>10. (B)</li>
                         {/* Add more items as needed */}
-                        {/* <li>Content for Week 5</li> */}
+                        {/* <li>Content for Week 6</li> */}
                     </ul>
                 );
                 break;
@@ -31,11 +31,11 @@ const WeekPopup = ({ course, week, onClose }) => {
         }
     } else if (course === 'Psychology of Learning') {
         switch (week) {
-            case 'Week 5':
+            case 'Week 6':
                 content = (
                     <ul>
                         {/* Add more items as needed */}
-                        {/* <li>Content for Week 5</li> */}
+                        {/* <li>Content for Week 6</li> */}
                         <p><b>Content for Week 6</b></p>
                         <li>1. C</li>
                         <li>2. C</li>
@@ -56,7 +56,7 @@ const WeekPopup = ({ course, week, onClose }) => {
         }
     } else if (course === 'Sociology of Development') {
         switch (week) {
-            case 'Week 5':
+            case 'Week 6':
                 content = (
                     <ul>
                         <p><b>Content for Week 6</b></p>
@@ -78,7 +78,7 @@ const WeekPopup = ({ course, week, onClose }) => {
         }
     }else if (course === 'Social Innovation in Industry 4.0') {
         switch (week) {
-            case 'Week 5':
+            case 'Week 6':
                 content = (
                     <ul>
                         <p><b>Content for Week 6</b></p>
@@ -92,11 +92,11 @@ const WeekPopup = ({ course, week, onClose }) => {
                         <li>8. B</li>
                         <li>9. D</li>
                         <li>10. C</li>
-                        // <li>11. B</li>
-                        // <li>12. A</li>
-                        // <li>13. A</li>
-                        // <li>14. C</li>
-                        // <li>15. D</li>
+                        {/* <li>11. B</li>
+                        <li>12. A</li>
+                        <li>13. A</li>
+                        <li>14. C</li>
+                        <li>15. D</li> */}
                         {/* Add more items as needed */}
                     </ul>
                 );
@@ -107,7 +107,7 @@ const WeekPopup = ({ course, week, onClose }) => {
         }
     }else if (course === 'Foundation of R language') {
         switch (week) {
-            case 'Week 5':
+            case 'Week 6':
                 content = (
                     <ul>
                         <p><b>Content for Week 6</b></p>
