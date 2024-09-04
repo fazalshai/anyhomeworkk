@@ -32,17 +32,17 @@ function App() {
           <div className="courses">
             <div className="flex-grid">
               <div className="course-item">
-                <button onClick={() => handleOpenWeekPopup('Design and Implementation of Human Interface', 'Week 5')} className="course-button">
+                <button onClick={() => handleOpenWeekPopup('Design and Implementation of Human Interface', 'Week 6')} className="course-button">
                   Design and Implementation of Human Interface <span className="spn">➔</span>
                 </button>
               </div>
               <div className="course-item">
-                <button onClick={() => handleOpenWeekPopup('Foundation of R language', 'Week 5')} className="course-button">
+                <button onClick={() => handleOpenWeekPopup('Foundation of R language', 'Week 6')} className="course-button">
                 Foundation of R language <span className="spn">➔</span>
                 </button>
               </div>
               <div className="course-item">
-                <button onClick={() => handleOpenWeekPopup('Sociology of Development', 'Week 5')} className="course-button">
+                <button onClick={() => handleOpenWeekPopup('Sociology of Development', 'Week 6')} className="course-button">
                   Sociology of Development <span className="spn">➔</span>
                 </button>
               </div>
@@ -50,17 +50,17 @@ function App() {
 
             <div className="flex-grid">   
               {/* <div className="course-item">
-                <button onClick={() => handleOpenWeekPopup('E-commerce', 'Week 5')} className="course-button">
+                <button onClick={() => handleOpenWeekPopup('E-commerce', 'Week 6')} className="course-button">
                   E-commerce <span className="spn">➔</span>
                 </button>
               </div> */}
               <div className="course-item">
-                <button onClick={() => handleOpenWeekPopup('Psychology of Learning', 'Week 5')} className="course-button">
+                <button onClick={() => handleOpenWeekPopup('Psychology of Learning', 'Week 6')} className="course-button">
                   Psychology of Learning <span className="spn">➔</span>
                 </button>
               </div>
-              <div className="course-item">
-                <button onClick={() => handleOpenWeekPopup('Social Innovation in Industry 4.0', 'Week 5')} className="course-button">
+              <div className="course-item">   
+                <button onClick={() => handleOpenWeekPopup('Social Innovation in Industry 4.0', 'Week 6')} className="course-button">
                   Social Innovation in Industry 4.0<span className="spn">➔</span>
                 </button>
               </div>
