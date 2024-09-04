@@ -10,15 +10,15 @@ const WeekPopup = ({ course, week, onClose }) => {
                 content = (
                     <ul>
                         <p><b>Content for Week 6</b></p>
-                        <li>1. A </li>
-                        <li>2. B </li>
-                        <li>3. C </li>
-                        <li>4. A </li>
-                        <li>5. C </li>
-                        <li>6. C </li>
-                        <li>7. B </li>
-                        <li>8. B </li>
-                        <li>9. B </li>
+                        <li>1. D </li>
+                        <li>2. C </li>
+                        <li>3. B </li>
+                        <li>4. B </li>
+                        <li>5. D </li>
+                        <li>6. A </li>
+                        <li>7. C </li>
+                        <li>8. C </li>
+                        <li>9. C </li>
                         <li>10. B</li>
                         {/* Add more items as needed */}
                         {/* <li>Content for Week 6</li> */}
@@ -46,7 +46,7 @@ const WeekPopup = ({ course, week, onClose }) => {
                         <li>7. D</li>
                         <li>8. D</li>
                         <li>9. C</li>
-                        <li>10. C</li>
+                        <li>10. B</li>
                     </ul>
                 );
                 break;
@@ -60,7 +60,14 @@ const WeekPopup = ({ course, week, onClose }) => {
                 content = (
                     <ul>
                         <p><b>Content for Week 6</b></p>
-                        <p>Need to update the answers</p>
+                        <li>1. B</li>
+                        <li>2. A</li>
+                        <li>3. B</li>
+                        <li>4. A</li>
+                        <li>5. D</li>
+                        <li>6. C</li>
+                        <li>7. D</li>
+                        <li>8. B</li>
                         {/* Add more items as needed */}
                     </ul>
                 );
