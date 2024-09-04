@@ -60,14 +60,6 @@ const WeekPopup = ({ course, week, onClose }) => {
                 content = (
                     <ul>
                         <p><b>Content for Week 6</b></p>
-                        // <li>1. (c) Ethnocentrism</li>
-                        // <li>2. (b) Neo-Marxism</li>
-                        // <li>3. (d) All of these</li>
-                        // <li>4. (d) All of these</li>
-                        // <li>5. (a) Ideological, Empirical, and Methodological or Metatheoretical</li>
-                        // <li>6. (c) Modernization</li>
-                        // <li>7. (d) Hamza Alavi</li>
-                        // <li>8. (d) Raul Prebisch</li>
                         <p>Need to update the answers</p>
                         {/* Add more items as needed */}
                     </ul>
@@ -112,21 +104,6 @@ const WeekPopup = ({ course, week, onClose }) => {
                 content = (
                     <ul>
                         <p><b>Content for Week 6</b></p>
-                        // <li>1. D</li>
-                        // <li>2. A</li>
-                        // <li>3. A</li>
-                        // <li>4. A</li>
-                        // <li>5. C</li>
-                        // <li>6. D</li>
-                        // <li>7. C</li>
-                        // <li>8. D</li>
-                        // <li>9. C</li>
-                        // <li>10. D</li>
-                        // <li>11. B</li>
-                        // <li>12. D</li>
-                        // <li>13. B</li>
-                        // <li>14. D</li>
-                        // <li>15. C</li>
                         <p>Need to update the answers</p>
                         {/* Add more items as needed */}
                     </ul>
