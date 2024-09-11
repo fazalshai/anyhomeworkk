@@ -60,14 +60,15 @@ const WeekPopup = ({ course, week, onClose }) => {
                 content = (
                     <ul>
                         <p><b>Content for Week 7</b></p>
-                        <li>1. B</li>
-                        <li>2. A</li>
-                        <li>3. B</li>
-                        <li>4. A</li>
-                        <li>5. D</li>
-                        <li>6. C</li>
-                        <li>7. D</li>
-                        <li>8. B</li>
+                        // <li>1. B</li>
+                        // <li>2. A</li>
+                        // <li>3. B</li>
+                        // <li>4. A</li>
+                        // <li>5. D</li>
+                        // <li>6. C</li>
+                        // <li>7. D</li>
+                        // <li>8. B</li>
+                        <p> Answers are going to update</p>
                         {/* Add more items as needed */}
                     </ul>
                 );
@@ -82,16 +83,17 @@ const WeekPopup = ({ course, week, onClose }) => {
                 content = (
                     <ul>
                         <p><b>Content for Week 7</b></p>
-                        <li>1. C</li>
-                        <li>2. B</li>
-                        <li>3. A</li>
-                        <li>4. B</li>
-                        <li>5. C</li>
-                        <li>6. C</li>
-                        <li>7. C</li>
-                        <li>8. B</li>
-                        <li>9. D</li>
-                        <li>10. C</li>
+                        // <li>1. C</li>
+                        // <li>2. B</li>
+                        // <li>3. A</li>
+                        // <li>4. B</li>
+                        // <li>5. C</li>
+                        // <li>6. C</li>
+                        // <li>7. C</li>
+                        // <li>8. B</li>
+                        // <li>9. D</li>
+                        // <li>10. C</li>
+                        <p> Answers are going to update</p>
                         {/* <li>11. B</li>
                         <li>12. A</li>
                         <li>13. A</li>
