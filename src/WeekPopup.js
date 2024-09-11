@@ -9,7 +9,7 @@ const WeekPopup = ({ course, week, onClose }) => {
             case 'Week 7':
                 content = (
                     <ul>
-                        <p><b>Content for Week 6</b></p>
+                        <p><b>Content for Week 7</b></p>
                         <li>1. A </li>
                         <li>2. B </li>
                         <li>3. C </li>
@@ -36,7 +36,7 @@ const WeekPopup = ({ course, week, onClose }) => {
                     <ul>
                         {/* Add more items as needed */}
                         {/* <li>Content for Week 6</li> */}
-                        <p><b>Content for Week 6</b></p>
+                        <p><b>Content for Week 7</b></p>
                         <li>1. C</li>
                         <li>2. D</li>
                         <li>3. D</li>
@@ -59,7 +59,7 @@ const WeekPopup = ({ course, week, onClose }) => {
             case 'Week 7':
                 content = (
                     <ul>
-                        <p><b>Content for Week 6</b></p>
+                        <p><b>Content for Week 7</b></p>
                         <li>1. B</li>
                         <li>2. A</li>
                         <li>3. B</li>
@@ -81,7 +81,7 @@ const WeekPopup = ({ course, week, onClose }) => {
             case 'Week 7':
                 content = (
                     <ul>
-                        <p><b>Content for Week 6</b></p>
+                        <p><b>Content for Week 7</b></p>
                         <li>1. C</li>
                         <li>2. B</li>
                         <li>3. A</li>
@@ -110,7 +110,7 @@ const WeekPopup = ({ course, week, onClose }) => {
             case 'Week 7':
                 content = (
                     <ul>
-                        <p><b>Content for Week 6</b></p>
+                        <p><b>Content for Week 7</b></p>
                         <li>1. A</li>
                         <li>2. C</li>
                         <li>3. D</li>
