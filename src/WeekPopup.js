@@ -15,7 +15,7 @@ const WeekPopup = ({ course, week, onClose }) => {
                         <li>3. A, C </li>
                         <li>4. B </li>
                         <li>5. A </li>
-                        <li>6. A, B, C </li>
+                        <li>6. A, B </li>
                         <li>7. B </li>
                         <li>8. B </li>
                         <li>9. A </li>
