@@ -106,7 +106,7 @@ const WeekPopup = ({ course, week, onClose }) => {
                 content = (
                     <ul>
                         <p><b>Content for Week 10</b></p>
-                        <P> Need to update the solutions</p>
+                        <p> Need to update the solutions</p>
                         {/* Add more items as needed */}
                     </ul>
                 );
